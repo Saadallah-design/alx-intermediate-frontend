@@ -30,7 +30,7 @@ alx-intermediate-frontend/
 ## 🌐 Preview
 
 When hosted on GitHub Pages, you’ll be able to preview the project here:  
-👉 **[Live Demo](https://saadallah-design.github.io/alx-intermediate-frontend/0x00-semantic_html/index.html)** 
+👉 **[Live Demo](https://saadallah-design.github.io/alx-intermediate-frontend/index.html)** 
 
 ## 🛠️ Technologies Used
 - **HTML5**  
