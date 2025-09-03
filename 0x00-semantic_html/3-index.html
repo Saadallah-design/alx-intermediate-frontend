@@ -81,9 +81,15 @@
         <section>
             <form action="#" method="POST" aria-labelledby="form-title" role="form">
                 <div>
-                    <label for="name">
-                        <input type="text" name="name" aria-required="true">
-                    </label>
+                    <!-- The label for requires and input id for screen readers-->
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" aria-required="true">
+
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" aria-required="true">
+
+                    <label for="tel">Telephone number:</label>
+                    <input type="text" name="tel" id="tel" aria-required="true">
                 </div>
                 <div aria-live="polite" role="alert">
                 </div>
