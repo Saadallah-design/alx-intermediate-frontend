@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid and Flexbox Layout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+            <style>
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="p-4">
+    <header class="bg-yellow-500 text-white p-4 rounded">
+        <h1 class="text-3xl">Responsive Image Gallery Using CSS Grid</h1>
+        <p class="text-base">Prodev Front End, ALX Program</p>
+    </header>
+
+    <main class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4 min-h-screen">
+        <section class="lg:col-span-2 flex">
+            <div class="w-1/2 p-4 bg-red-200">Flexbox Item 1</div>
+            <div class="w-1/2 p-4 bg-red-400">Flexbox Item 2</div>
+        </section>
+        <aside class="bg-green-200 p-4">Sidebar</aside>
+    </main>
+    <!--Section for Image Galerry-->
+    <section class="text-center my-4 p-4 bg-yellow-500 rounded">
+        <header class="col-span-3 text-start">
+            <h2 class="text-2xl font-bold mb-2 font-serif">Image Gallery</h2>
+            <p class="text-xl font-bold font-serif">A collection of images displayed using CSS Grid following Week 2 Task from Prodev Frontend.</p>
+            <ol class="list-decimal list-inside text-black-700 mt-4 px-2 space-y-1 text-left">
+                <li class="text-m">At first I created a section with three divs.</li>
+                <li class="text-m">That structure made it complex when I tried to add the header.</li>
+                <li class="text-m">So I removed the divs and added the header directly inside the section.</li>
+                <li class="text-m">Then I added the images inside the section.</li>
+                <li class="text-m">Finally I styled the section to be a grid with three columns on medium screens and above, and one column on smaller screens.</li>
+            </ol>
+        </header>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 place-items-center">
+                <img src="./imgs/person coding.jpg" alt="person coding" class="rounded-lg">
+
+
+                <img src="./imgs/two people talking about code in front of computer.jpg" alt="two people talking about code in front of computer" class="rounded-lg">
+
+
+                <img src="./imgs/whole team behind one screen working on a problem.jpg" alt="whole team behind one screen working on a problem" class="rounded-lg">
+            </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white p-4 mt-4">
+        <p>&copy; 2024 Salaheddine's Blog</p>
+    </footer>
+</body>
+</html>
