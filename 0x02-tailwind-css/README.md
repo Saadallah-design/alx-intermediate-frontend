@@ -11,8 +11,11 @@ Each task builds progressively on the previous one, from setup to creating compl
     therefore, I will get back to install VITE globally to see the underlying problem and understand more about VITE itself.
 ---> **SOLUTION** After error and trial and deleting directories for 2 hours I took a step back and read the TAILWIND DOCS. There was the option of CLI, I was already watching a video on it and the setup took only 5 minutes. 
 
-
 ## To view how I sat tailwind via CLI please check with HOW_TO_SETUP_TAILWIND.md file.
+
+## 🌐 Live preview of final task 6-imageGalerry.hmtl
+Preview the project from here:  
+👉 **[Live Demo](https://saadallah-design.github.io/alx-intermediate-frontend/0x02-tailwind-css/6-imageGallery.html)** 
 
 ## 📂 Repository Structure
 alx-intermediate-frontend/
