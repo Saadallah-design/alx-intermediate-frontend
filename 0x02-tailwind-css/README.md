@@ -6,9 +6,12 @@ Each task builds progressively on the previous one, from setup to creating compl
 ### Personal takeway**: 
 
 ---> **PROBLEM** At first when I tried to install tailwind I didn't succeed. I checked which option is better to keep installing it for each project or install it globally. Global option sounded good to me so I proceeded with it. In Tailwind Docs I tried VITE  option but it didn't work because I didn't give it time and didn't want to proceed as it kept showing errors. I checked with CHATGPT but it gave me old setups only after checking the output it realizes that it was using an older setup. 
+
 ---> **REASON** I believe that I made some mistakes while installing it with vite in terms of files. For example creating a src/ manually where it is provided when you install tailwind. 
+
 ---> **LEARNING** Everything seems complicated at first because simply it is new. 
     therefore, I will get back to install VITE globally to see the underlying problem and understand more about VITE itself.
+    
 ---> **SOLUTION** After error and trial and deleting directories for 2 hours I took a step back and read the TAILWIND DOCS. There was the option of CLI, I was already watching a video on it and the setup took only 5 minutes. 
 
 
