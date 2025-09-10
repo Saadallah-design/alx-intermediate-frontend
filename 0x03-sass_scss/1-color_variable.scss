@@ -1,0 +1,9 @@
+// this file for task 2 using sass variables to define colors to body and paragraph Tags
+
+$primary-color: #3D3D3D; // Define a primary color variable
+body {
+    color: $primary-color;
+}
+p {
+    color: $primary-color;
+}
